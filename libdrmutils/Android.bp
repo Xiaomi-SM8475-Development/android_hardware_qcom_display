@@ -9,6 +9,7 @@ cc_library_shared {
     header_libs: [
         "display_headers",
         "qti_kernel_headers",
+        "qti_kernel_headers_5.10",
     ],
     shared_libs: [
         "libdrm",
