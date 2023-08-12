@@ -129,7 +129,7 @@ qtidisplay_cc_defaults {
     ],
     soong_config_variables: {
         default: {
-            header_libs: ["display_headers", "qti_kernel_headers"],
+            header_libs: ["display_headers", "qti_kernel_headers", "device_kernel_headers"],
         },
         headless: {
             header_libs: ["display_headers"],
